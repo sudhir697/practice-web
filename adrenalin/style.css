@@ -1,0 +1,67 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+  padding: 0;
+  background: url("Career-in-Computer-Science-1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+    font-size: 2em;
+    color: #fffefe;
+    text-align: center;
+}
+p {
+    font-size: 1.2em;
+    color: #092476;
+    line-height: 1.5;
+    margin: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2 {
+    font-size: 1.5em;
+    color: #0c0c0c;
+    text-align: center;
+}
+button:hover {
+  background-color: #45a049;
+}
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 26px;
+  cursor: pointer;
+}
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.login-container {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(203, 29, 29, 0.2);
+  width: 300px;
+  text-align: center;
+}
+body {
+  background: url("Career-in-Computer-Science-1.jpg") no-repeat center center fixed;
+  background-size: cover;/* This will blur everything including form if inside */
+}
